@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2a0c58e1-b652-454a-8d47-5fcef6c0ddb0}</ProjectGuid>
-    <RootNamespace>Cproject</RootNamespace>
+    <ProjectGuid>{9ceef086-2f1d-45d1-a7a2-272d8e82e8bf}</ProjectGuid>
+    <RootNamespace>Cprojectfiles</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="source.c" />
+    <ClCompile Include="calendar(with color).c" />
+    <ClCompile Include="calendar%28with week count%29.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source.c">
+    <ClCompile Include="calendar(with color).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="calendar%28with week count%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
