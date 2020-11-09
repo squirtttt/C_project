@@ -142,6 +142,9 @@
     <ClCompile Include="calendar(with color).c" />
     <ClCompile Include="calendar%28with week count%29.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cful.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
